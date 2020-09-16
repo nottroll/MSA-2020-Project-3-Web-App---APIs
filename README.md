@@ -7,6 +7,7 @@ Using Flask, HTML5 Canvas and Flask-SocketIO, this project aims to provide a sim
 Nonetheless the website is deployed to Azure: http://msa-collabdraw.azurewebsites.net/ 
 
 For the intended experience please run the project locally.
+![](demo.gif)
 
 ## Dependencies
     python==3.7.7

@@ -136,5 +136,4 @@ def save_drawing(data):
     pass
 
 if __name__ == '__main__':
-    print("Server running.")
-    socketio.run(app, host='0.0.0.0', debug=True)
+     socketio.run(app)

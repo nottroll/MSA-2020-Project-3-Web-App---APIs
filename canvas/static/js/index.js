@@ -175,13 +175,13 @@ clearAllButton.onclick = function () {
 
 //Mouse events on canvas
 canvas.addEventListener('mousedown', startDraw, false);
-canvas.addEventListener('mousemove', throttle(drawNewPoint, 10), false);
+canvas.addEventListener('mousemove', throttle(drawNewPoint, 25), false);
 canvas.addEventListener('mouseup', endDraw, false);
 canvas.addEventListener('mouseout', endDraw, false);
 
 //Touch support for mobile devices
 canvas.addEventListener('touchstart', startDraw, false);
-canvas.addEventListener('touchmove', throttle(drawNewPoint, 10), false);
+canvas.addEventListener('touchmove', throttle(drawNewPoint, 25), false);
 canvas.addEventListener('touchend', endDraw, false);
 canvas.addEventListener('touchcancel', endDraw, false);
 

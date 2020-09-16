@@ -1,0 +1,39 @@
+::-moz-selection {
+    background: white;
+  }
+  
+::selection {
+    background: white;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#canvas-wrapper {
+    width:700px; 
+}
+#canvas {
+    cursor: none;
+}
+#brush {
+    position: absolute;
+    pointer-events: none;
+}
+.btn{
+    margin-top:5px;
+}
+.slider-container {
+    padding: 10px;
+}
+#lineWeight-slider {
+    vertical-align: middle;
+}
+#user-wrapper{
+    display: block;
+}
+.material-icons {vertical-align: text-bottom; padding:0px 3px 0px 0px;}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }

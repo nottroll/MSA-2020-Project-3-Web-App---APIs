@@ -1,4 +1,4 @@
-const socket = io();
+socket = io.connect(null, {port: 8000, rememberTransport: false});
 
 //Connect user
 socket.on('users', function (count) {

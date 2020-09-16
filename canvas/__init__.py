@@ -135,5 +135,10 @@ def clear_board():
 def save_drawing(data):
     pass
 
+# Handle error
+@socketio.on_error()        
+def error_handler(e):
+    pass
+
 if __name__ == '__main__':
-    socketio.run(app, host='0.0.0.0', debug=True)
+    socketio.run(app)

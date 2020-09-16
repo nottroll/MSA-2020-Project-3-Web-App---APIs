@@ -21,12 +21,14 @@ To run this application locally, simply install the dependancies listed either g
 ## What I learnt
 - HTML5 Canvas is a easy to get started with but becomes much more challenging when dealing with variable window sizes to find the relative mouse position.
 - Deployment issues are incredibly challenging to diagnose for a beginner.
-- Flask-SocketIO is a powerful tool for realtime applications and demonstrates why WebSocket is so widely used today/
+- Flask-SocketIO is a powerful tool for realtime applications and demonstrates why WebSocket is so widely used today.
 - I will need to revist this project when I have gained more experience.
 
 ## Selected References
 https://github.com/JerryyZhu/todo_markdown
-https://github.com/socketio/socket.io/blob/master/examples/whiteboard/public/main.js
-https://github.com/Exaphis/collab-whiteboard
-https://flask-socketio.readthedocs.io/en/latest/
 
+https://github.com/socketio/socket.io/blob/master/examples/whiteboard/public/main.js
+
+https://github.com/Exaphis/collab-whiteboard
+
+https://flask-socketio.readthedocs.io/en/latest/

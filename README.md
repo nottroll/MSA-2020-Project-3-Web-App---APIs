@@ -2,7 +2,7 @@
 This project is part of Microsoft Student Accelerator 2020: Web Apps and APIs and is a simple collaborative drawing app using Flask-SocketIO.
 
 ## Summary
-Built using HTML5 Canvas and Flask-SocketIO, this project is intented to be a realtime drawing canvas and is inspired by modern collaborative tools such as Google Docs and Microsoft Word Online. However in this the making of this web app, many challenges arose and mainly revolved around the transition from the local development environment to the production environment. Although the app functions well locally, it struggles with in its deployed state with long latency and updates between clients occuring extremely slowly if at all. At this stage, I am unsure how to diagnose this problem.
+Built using HTML5 Canvas and Flask-SocketIO, this project is indented to be a realtime drawing canvas and is inspired by modern collaborative tools such as Google Docs and Microsoft Word Online. In this the making of this web app, many challenges arose and mainly revolved around the transition from the local development environment to the production environment. Although the app functions well locally, it struggles with in its deployed state with long latency and updates between clients occuring extremely slowly if at all. At this stage, I am unsure how to diagnose this problem.
 
 Nonetheless the website is deployed to Azure: http://msa-collabdraw.azurewebsites.net/ 
 
